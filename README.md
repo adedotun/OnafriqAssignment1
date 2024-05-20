@@ -19,5 +19,5 @@ This project automates interaction with an e-commerce website (https://www.autom
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/adedotun/selenium-ecommerce-automation.git
+   git clone https://github.com/adedotun/OnafriqAssignment1.git
    cd OnafriqAssignment1
