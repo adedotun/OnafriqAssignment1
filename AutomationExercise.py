@@ -63,6 +63,8 @@ for label, price in sorted_items:
 
 # Navigate to Women >> Dress >> Women – Tops Products
 women_menu = browser.find_element(By.XPATH, "//a[normalize-space()='Women']")
+browser.execute_script("arguments[0].scrollIntoView();", women_menu)
+time.sleep(5)
 try:
     js_click(browser, women_menu)
     browser.implicitly_wait(10)
@@ -74,6 +76,8 @@ except Exception as e:
 browser.implicitly_wait(10)
 
 women_tops_menu = browser.find_element(By.XPATH, "//a[normalize-space()='Tops']")
+browser.execute_script("arguments[0].scrollIntoView();", women_tops_menu)
+time.sleep(5)
 try:
     js_click(browser, women_tops_menu)
     browser.implicitly_wait(10)
