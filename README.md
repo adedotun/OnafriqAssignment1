@@ -21,3 +21,6 @@ This project automates interaction with an e-commerce website (https://www.autom
    ```sh
    git clone https://github.com/adedotun/OnafriqAssignment1.git
    cd OnafriqAssignment1
+2. ```sh
+   python main.py
+
