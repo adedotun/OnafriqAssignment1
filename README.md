@@ -11,7 +11,7 @@ This project automates interaction with an e-commerce website (https://www.autom
 
 ## Prerequisites
 
-- Python 3.7 or higher
+- Python 3.x installed
 - Chrome WebDriver (compatible with your Chrome version)
 - Selenium package
 
